@@ -1,0 +1,9 @@
+* Introduction
+This subclass of UITextField allows to define some properties for
+placeholder which are not available by default.
+
+* Example
+
+: AdvancedtextField *textField = [[AdvancedTextField alloc] init];
+: textField.placeholderColor = [UIColor redColor];
+: textField.placeholderFont = [UIFont systemFontOfSize:16];
